@@ -1,0 +1,13 @@
+<script>
+	function person(name , jingli,jineng){
+		this.name = name;
+		this.jingli = jingli;
+		this.jineng = jineng;
+	}
+	person.prototype.show=function(){
+		console.log("我是"+this.name+";我有如下经历:"+this.jingli+";我会如下技能:"+this.jineng);
+	}
+	var myself=new Person("小田","小田工作室创办人，凤翔网络推广顾问","熟悉前端基本技能，熟悉网络营销思想有实战经验，掌握项目经理技能，可以编写文档，也可以使用axure进行原型设计，掌握自动化测试和性能测试技能")
+	myself.show();
+	
+</script>
